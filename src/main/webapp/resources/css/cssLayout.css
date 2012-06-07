@@ -36,11 +36,35 @@
     margin: 0% 0% 0% 85%;
 }
 
+#header {
+    background-color: #ff0000;
+    margin: 0% 0% 0% 0%;
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+#menu {
+    background-color: #66ff66;
+    margin: 0% 0% 0% 0%;
+    position: relative;
+    width: 100%;
+    height: 5%;
+}
+
 #content {
-    background-color: #9999ff;
-    padding: 10px;
-    margin: 0% 0% 0% 15%;
+    background-color: #ffffff;
+    margin: 0% 0% 0% 0%;
+    position: relative;
+    width: 100%;
+    height: 75%;
+}
+
+#content_wrapper {
+    margin: 0% 0% 0% 0%;
     position: absolute;
+    width: 1024px;
+    height: 100%;
 }
 
 

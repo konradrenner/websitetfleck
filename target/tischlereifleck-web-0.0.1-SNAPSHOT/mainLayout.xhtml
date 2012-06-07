@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
       xmlns:h="http://java.sun.com/jsf/html">
 
     <h:head>
@@ -14,17 +15,26 @@
     <h:body>
 
         <div id="wrapper">
+            <div id="content_wrapper">
                 <div id="header">
                     <ui:insert id="head"/>
                 </div>
                 <div id="menu">
-                    <ui:insert id="menu"/>
+                    <p:menubar>
+                        <p:submenu label="SubMenu1">  
+                            <p:menuitem value="Item1"/>  
+                        </p:submenu>
+                        <p:submenu label="SubMenu2">  
+                            <p:menuitem value="Item2"/>  
+                        </p:submenu>
+                        <p:menuitem value="Item3"/>  
+                    </p:menubar>
                 </div>
                 <div id="content">
                     <ui:insert id="content"/>
                 </div>
+            </div>
         </div>
-
     </h:body>
 
 </html>
