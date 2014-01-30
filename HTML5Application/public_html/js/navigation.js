@@ -1,3 +1,17 @@
+var index = $('<li><a href="index.html"><img src="img/navigation/2.jpg" alt=""><span class="sdt_active"></span><span class="sdt_wrap"><span class="sdt_link">Home</span><span class="sdt_descr">Die Tischlerei ihres Vertrauens</span></span></a></li>');
+var philosophie = $('<li><a href="philosophie.html"><img src="img/navigation/1.jpg" alt=""><span class="sdt_active"></span><span class="sdt_wrap"><span class="sdt_link">Philosophie</span><span class="sdt_descr">Der Kunde zuerst</span></span></a></li>');
+var produkte = $('<li><a href="produkte.html"><img src="img/navigation/3.jpg" alt=""><span class="sdt_active"></span><span class="sdt_wrap"><span class="sdt_link">Produkte</span><span class="sdt_descr">Das müssen Sie gesehen haben</span></span></a></li>');
+var referenzen = $('<li><a href="referenzen.html"><img src="img/navigation/4.jpg" alt=""><span class="sdt_active"></span><span class="sdt_wrap"><span class="sdt_link">Referenzen</span><span class="sdt_descr">Uns gibt es schon lange</span></span></a></li>');
+var karierre = $('<li><a href="karriere.html"><img src="img/navigation/5.jpg" alt=""><span class="sdt_active"></span><span class="sdt_wrap"><span class="sdt_link">Karriere</span><span class="sdt_descr">Unsere Mitarbeiter</span></span></a></li>');
+var kontakt = $('<li><a href="kontakt.html"><img src="img/navigation/6.jpg" alt=""><span class="sdt_active"></span><span class="sdt_wrap"><span class="sdt_link">Kontakt</span><span class="sdt_descr">Wir sind gleich ums Eck</span></span></a></li>');
+
+var navigationDiv = $('<div id="navigation"><ul id="sdt_menu" class="sdt_menu"></ul></div>');
+
+navigationDiv.children('ul').append(index).append(philosophie).append(produkte).append(referenzen).append(karierre).append(kontakt);
+
+$('#nav').append(navigationDiv);
+
+
 $(function() {
     /**
      * for each menu element, on mouseenter, 
