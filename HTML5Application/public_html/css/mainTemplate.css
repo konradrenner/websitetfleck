@@ -161,22 +161,29 @@ body{text-align:center;
 	border-top:#FFFFFF 2px solid;
 	margin:0;
 	padding:0;
-	}
-	
+}
+
+.content_full{
+    height:550px;
+    background:#CCC8B3;
+    border-top:#FFFFFF 2px solid;
+    margin:0;
+    padding:0;
+}
+
 #secondary{
     height:250px;
     background:#F6F0E0;
 	border-top:#FFFFFF 2px solid;
 	margin:0;
 	padding:0;
-	}
-	
+}
+
+
 #secondaryFull{
 	height:50px;
 	background-color:#CFB59F;
 	border-top:#FFFFFF 2px solid;
-	margin:0;
-	padding:0;
 	}
 	
 #footer{
